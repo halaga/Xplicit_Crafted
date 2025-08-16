@@ -26,3 +26,5 @@
 - GitHub: [github.com/halaga](https://github.com/halaga)  
 
 ✨ Always open to freelance gigs, collaborations, and new opportunities!
+<img width="1918" height="790" alt="xplicit" src="https://github.com/user-attachments/assets/82080967-ddae-4ebb-8d74-e5e2d1075dab" />
+
