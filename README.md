@@ -21,8 +21,8 @@
 
 📫 **Let’s connect!**  
 - Portfolio: [xplicitcrafted.netlify.app](https://xplicitcrafted.netlify.app/)  
-- LinkedIn: *(add link)*  
-- Twitter/X: *(add link)*  
+- LinkedIn: [linkedin.com/in/jesujuwon-dabo](https://www.linkedin.com/in/jesujuwon-dabo)  
+- Twitter/X: [x.com/@DaboMelvin92344](https://x.com/@DaboMelvin92344)
 - GitHub: [github.com/halaga](https://github.com/halaga)  
 
 ✨ Always open to freelance gigs, collaborations, and new opportunities!
