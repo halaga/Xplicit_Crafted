@@ -6,11 +6,11 @@
     data-aos-offset="300"
     data-aos-easing="ease-out-cubic"
   >
-  
-
     <!-- Header -->
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-bold flex justify-center items-center gap-3 text-gray-900 dark:text-white mb-4">
+      <h2
+        class="text-3xl md:text-4xl font-bold flex justify-center items-center gap-3 text-gray-900 dark:text-white mb-4"
+      >
         <Icon icon="mdi:briefcase-outline" width="36" height="36" color="#809771" />
         Featured Projects
       </h2>
@@ -70,6 +70,14 @@ const projects = [
       'Dynamic internal tool for staff to generate professional email signatures with custom styles.',
     link: 'https://ringo.ng/signature-generator.html',
     label: 'View Tool',
+  },
+  {
+    title: 'Dorcas Gold Heart NGO',
+    image: new URL('../assets/dorcas.png', import.meta.url).href,
+    description:
+      'A responsive NGO platform highlighting Dorcas mission, programs, and community initiatives. Includes donation features and smooth animations.',
+    link: 'https://dorcasgoldheartngo.org',
+    label: 'View Project',
   },
 ];
 </script>
