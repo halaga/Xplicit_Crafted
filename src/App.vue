@@ -4,7 +4,9 @@ import Navbar from './components/Navbar.vue'
 import Hero from './components/Hero.vue'
 import About from './components/About.vue'
 import Services from './components/Services.vue'
+import WhyChooseUs from './components/WhyChooseUs.vue'
 import Projects from './components/Projects.vue'
+import Testimonials from './components/Testimonials.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
 import { Icon } from '@iconify/vue'
@@ -79,7 +81,9 @@ const toggleTheme = () => {
       <Hero />
       <About />
       <Services />
+      <WhyChooseUs/>
       <Projects />
+      <Testimonials/>
       <Contact />
       <Footer />
     </div>
