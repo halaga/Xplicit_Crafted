@@ -26,7 +26,8 @@ const strengths = [
 </script>
 
 <template>
-  <section class="relative py-24 px-6 md:px-20 bg-transparent overflow-hidden">
+  <section class="relative py-24 px-6 md:px-20 bg-transparent overflow-hidden transition"
+  data-aos="fade-up">
 
   <!-- Glass overlay -->
   <div class="absolute inset-0 backdrop-blur-sm bg-white/30 dark:bg-gray-900/30"></div>
