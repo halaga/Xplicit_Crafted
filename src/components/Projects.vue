@@ -143,8 +143,16 @@ const projects = ref([])
 const selectedProject = ref(null)
 
 onMounted(async () => {
-  const res = await fetch("/projects.json")
-  projects.value = await res.json()
+  try {
+    const res = await fetch("/projects.json")
+    const data = await res.json()
+
+    console.log("PROJECTS:", data) // 🔥 DEBUG
+
+    projects.value = data
+  } catch (err) {
+    console.error("FETCH ERROR:", err)
+  }
 })
 
 const bigProjects = computed(() =>
