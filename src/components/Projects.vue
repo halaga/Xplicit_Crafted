@@ -135,25 +135,13 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from "vue"
+import { ref, computed } from "vue"
 import ProjectCard from "../components/ProjectCard.vue"
 import { Icon } from "@iconify/vue"
+import projectsData from "../data/projects" // ✅ IMPORT DIRECTLY
 
-const projects = ref([])
+const projects = ref(projectsData)
 const selectedProject = ref(null)
-
-onMounted(async () => {
-  try {
-    const res = await fetch("/projects.json")
-    const data = await res.json()
-
-    console.log("PROJECTS:", data) // 🔥 DEBUG
-
-    projects.value = data
-  } catch (err) {
-    console.error("FETCH ERROR:", err)
-  }
-})
 
 const bigProjects = computed(() =>
   projects.value.filter(p => p.type === "big")
