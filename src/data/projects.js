@@ -3,7 +3,7 @@
   {
     "title": "Ringo Telecom Platform",
     "description": "Scalable telecom platform with optimized performance and modern UI.",
-    "image": "/projects/ringo.png",
+    "image": "/src/assets/ringo.png",
     "link": "https://ringo.ng",
     "label": "View Live",
     "type": "big",
@@ -18,7 +18,7 @@
   {
     "title": "Approot Technologies Website",
     "description": "Corporate website focused on clarity, performance, and brand positioning.",
-    "image": "/projects/approot.png",
+    "image": "/src/assets/approot.png",
     "link": "https://approot.com.ng",
     "label": "View Live",
     "type": "big",
@@ -33,7 +33,7 @@
   {
     "title": "Dorcas Gold Heart NGO",
     "description": "Donation-focused NGO platform with storytelling and engagement.",
-    "image": "/projects/dorcas.png",
+    "image": "/src/assets/dorcas.png",
     "link": "https://dorcasgoldheartngo.org",
     "label": "View Live",
     "type": "small",
@@ -48,7 +48,7 @@
   {
     "title": "Email Signature Generator",
     "description": "Internal tool for generating consistent company email signatures.",
-    "image": "/projects/ringo-gen.png",
+    "image": "/src/assets/ringo-gen.png",
     "link": "",
     "label": "View Tool",
     "type": "small",
@@ -62,7 +62,7 @@
   {
     "title": "Blue Oasis Springs Website",
     "description": "Corporate Vue 3 website with modern UI and performance optimization.",
-    "image":"/projects/blue.png",
+    "image":"/src/assets/blue.png",
     "link": "https://blueoasissprings.com",
     "label": "View Project",
     "type": "small'",
