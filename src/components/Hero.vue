@@ -60,7 +60,7 @@
         </a>
 
         <a
-          href="/Dabo_Melvin_Resume.pdf"
+          href="/src/assets/Dabo_Melvin_Resume.pdf"
           target="_blank"
           download
           class="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300 hover:underline"
